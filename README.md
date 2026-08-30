@@ -1,4 +1,4 @@
-# Issue Resolver Agent
+# Issue-Resolver Agent
 
 A developer operations agent built on **TrueForge**, that investigates a GitHub issue, diagnoses the root cause, proposes a fix, and asks for confirmation before opening a PR.
 
