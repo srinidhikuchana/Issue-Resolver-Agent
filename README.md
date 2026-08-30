@@ -52,14 +52,14 @@ Short write-up, required by the hackathon rules:
 
 ## Qodo Code Review Evidence
 
-- Representative merged PR: <!-- link -->
-- What Qodo found / what we changed or dismissed: <!-- 1-2 lines -->
-- PR history: <!-- link showing the initial Qodo review, your fixes/dismissals, and a follow-up review against the final code -->
+- Representative merged PR: https://github.com/srinidhikuchana/Issue-Resolver-Agent/pull/3
+- Initial review trail: PR #2 (closed, not merged) — Qodo flagged a **High-severity** finding that the README fix was written to the wrong path (`skills/issue-resolver/README.md`) instead of the actual root `README.md`, so the real typo was never fixed.
+- What we changed: closed PR #2, redid the fix on a clean branch, opened PR #3 targeting the correct root `README.md`.
+- Follow-up review: Qodo re-reviewed PR #3 and returned "Great, no issues found!" — 0 bugs, 0 rule violations, 0 requirement gaps. Merged.
 
 ## AI assistant disclosure
 
-<!-- Required by hackathon rules. Example:
-Claude (Anthropic) was used to help scaffold this repo, draft the SKILL.md instructions, and troubleshoot the TrueForge/Codespaces setup. All code was reviewed, tested, and understood by the team before committing. -->
+Claude (Anthropic) was used to help scaffold this repo, draft the `issue-resolver` SKILL.md instructions, and troubleshoot the TrueForge + Codespaces + GitHub MCP + Qodo setup during the hackathon. All code, configuration, and the PR review trail were reviewed, tested and understood by the participant before committing.
 
 ## Guardrails
 
